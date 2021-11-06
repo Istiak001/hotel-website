@@ -1,0 +1,320 @@
+/*foogle ond link */
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+/* universal css  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mukta', sans-serif;
+}
+/* common css section  */
+img{
+    width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+.bg{
+    background-color: tomato;
+}
+.color{
+    color: tomato;
+}
+.wrapper{
+    background-color: #dff9fb;
+    ;
+}
+.white{
+    background-color: white;
+}
+/* header css section  */
+.header-bg a{
+    color: black;
+}
+.header-bg a:hover{
+    color: tomato;
+}
+/* logo and serch section */
+.logo{
+    font-weight: bold;
+}
+.logo-color{
+    color: tomato;
+}
+/* navacation bar css section  */
+.nav-bg{
+    background-color: #0A223D;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: tomato;
+}
+.navbar-toggler{
+    background-color: white;
+}
+.bar-icon{
+    color: tomato;
+}
+/* pat section  */
+.pat-bg{
+    /* background-color: #F5FAFE; */
+}
+.pat-bg a{
+    color: black;
+}
+.pat-link a:hover{
+    color: tomato;
+}
+/* hotel and location section css  */
+.star-reating i{
+    color: tomato;
+}
+.offer{
+    padding: 3px;
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+}
+/* booking card section css */
+.booking-card{
+    background-color: #0A223D;
+    color: whitesmoke;
+    border-radius: 4px;
+}
+.booking-card a{
+    background-color: tomato;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+/* second nav bar section  */
+.navbar-toggler{
+    border: 3px solid tomato;
+}
+.fa-chevron-down{
+    color: tomato;
+}
+.navbar-toggler:focus{
+ border: none;
+}
+.snd-nav{
+    color: black;
+}
+/* packge summary section css */
+.fa-check-circle{
+    color: tomato;
+}
+.hover-bg{
+    transition: 0.5s;
+}
+.hover-bg:hover{
+    background-color: white;
+    box-shadow: 5px 7px 6px 1px rgba(0,0,0,0.75);
+    border-radius: 5px;
+}
+.valid-date{
+    color: #0A223D;
+}
+.valid-date:hover{
+    color: tomato;
+}
+/* other pacge sectio */
+.other-bg{
+    background-color: #0A223D;
+    border-radius: 0px 15px 15px 0px;
+    color: white;
+}
+.img-bg{
+    background-image: url(image/3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px 0px 0px 15px;
+    background-size: cover;
+}
+.packge-reatting i{
+    color: tomato;
+    font-size: 12px;
+}
+.text-j{
+    text-align: justify;
+}
+.btn-c{
+    padding: 5px 8px;
+    border-radius: 3px;
+    background-color: tomato;
+    color: white;
+}
+.footer-link a{
+    color: tomato;
+    transition: 0.5s;
+}
+.footer-link a:hover{
+    color: white;
+}
+/* card single section  */
+.card-single{
+    border-radius: 15px;
+}
+.card-single-bg{
+    background-color: #0A223D;
+    color: white;
+}
+/* slaider section css */
+.carousel-inner{
+    padding-top: 70px;
+    color: black;
+}
+.slaider-relative{
+    /* position: relative; */
+    background-color: white;
+    /* height: 450px; */
+}
+.slaider-img{
+    z-index: 5;
+    margin: -9% 0% 0% 0%;
+    /* padding: 1px 1px 1px 1px; */
+    /* position: absolute;
+    left: 50%;
+    overflow: hidden;
+    transform: translate(-13%, -49%); */
+}
+.slaider-img img{
+    width: 20%;
+    /* width: 35%; */
+    height: 20%;
+    border-radius: 50%;
+}
+.carosel-reating{
+    padding-top: 3%;
+    /* padding-bottom: 15%; */
+}
+.carosel-reating i{
+    color: tomato;
+    text-align: center;
+}
+.carosel-text{
+    /* padding-top: 20%; */
+    padding-bottom: 20px;
+    text-align: justify;
+}
+/* subscribe section css */
+.subscribe-sec{
+    background-image: url(image/2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+    color: white;
+}
+.subscribe-sec p{
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+}
+.sub-input{
+    background-color: white;
+    border: 1px solid tomato;
+    padding-left: 5px;
+    border-radius: 6px 0px 0px 6px;
+    border-right: none;
+    outline: none;
+}
+.sub-input:hover{
+    border: none;
+}
+.sub-btn{
+    background-color: #198754;
+    border-radius: 0px 6px 6px 0px;
+    border-right: none;
+    color: white;
+    border: 1px solid white;
+}
+/* small card sectio css */
+.bg-small-card-img{
+    background-image: url(image/2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 10px;
+}
+.small-card-text{
+    padding-top: 70px;
+    font-size: 20px;
+}
+.bg-small-card-img a{
+    padding: 7px 17px;
+    border-radius: 2px;
+    color: white;
+    background-color: tomato;
+}
+/* footer section css  */
+.footer-bg{
+    background-color: #0A223D;
+    color: #dfe6e9;
+}
+.title-logo{
+    padding: 77px 3px;
+    color: white;
+}
+.title-logo a{
+    color: white;
+}
+.brand-logo{
+    color: tomato;
+}
+.footer-title{
+    color: white;
+    padding: 13px 0px;
+}
+.footer-link{
+    color: #dfe6e9;
+    padding: 2px 2px;
+    transition: 0.5s;
+}
+.footer-link:hover{
+    color: tomato;
+}
+.s-icon{
+    font-size: 25px;
+    padding: 0px 2px;
+}
+.contact-icon{
+    color: tomato;
+}
+/* message sectin css  */
+.message-section{
+
+}
+.text-input{
+    height: 130px;
+}
+.footer-btns a{
+    color: white;
+    transition: 0.5s;
+}
+.footer-btns a:hover{
+    color: tomato;
+}
+.send-btn{
+    padding: 10px 40px;
+    background-color: tomato;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.send-btn:hover{
+    background-color: white;
+    color: tomato;
+}
+/* footer and copyright section  */
+.pay-card{
+    width: 21%;
+    height: 9%;
+}
